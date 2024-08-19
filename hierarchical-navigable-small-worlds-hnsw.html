@@ -4,27 +4,55 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
-        <title>Gamal Abdulsalam - Categories</title>
+        <title>Hierarchical Navigable Small Worlds (HNSW)</title>
         <link rel="stylesheet" href="./theme/css/main.css" />
+        <meta name="description" content="Hierarchical Navigable Small Worlds is a data structure made for indexing vectors. I implemented it in Rust with multithreading capabilities and..." />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
                 <h1><a href="./">Gamal Abdulsalam</a></h1>
                 <nav><ul>
-                    <li><a href="./category/blog.html">Blog</a></li>
+                    <li class="active"><a href="./category/blog.html">Blog</a></li>
                     <li><a href="./category/home.html">Home</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-
 <section id="content" class="body">
-    <h1>Categories for Gamal Abdulsalam</h1>
-    <ul>
-        <li><a href="./category/blog.html">Blog</a> (1)</li>
-        <li><a href="./category/home.html">Home</a> (1)</li>
-    </ul>
-</section>
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./hierarchical-navigable-small-worlds-hnsw.html" rel="bookmark"
+           title="Permalink to Hierarchical Navigable Small Worlds (HNSW)">Hierarchical Navigable Small Worlds (HNSW)</a></h1>
+    </header>
 
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-08-19T00:00:00+02:00">
+                Published: Mon 19 August 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-08-19T00:00:00+02:00">
+                Updated: Mon 19 August 2024
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="./author/gamal-abdulsalam.html">Gamal Abdulsalam</a>
+        </address>
+<p>In <a href="./category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Hierarchical Navigable Small Worlds is a data structure made for indexing vectors. 
+I implemented it in Rust with multithreading capabilities and plan on adding some additional features:</p>
+<ul>
+<li>Filtering capabilities based on attributes attached to vectors</li>
+<li>A vector database engine that works directly on disk, allowing for the fast creation and querying 
+of vector databases that don't fit in RAM.</li>
+</ul>
+<p>You can the code I am working on following <a href="https://github.com/Gumo-A/hnsw_rs">this link</a>.</p>
+<p><img src="./assets/graph.png" width="300"/></p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>

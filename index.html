@@ -4,49 +4,90 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="generator" content="Pelican" />
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+        <title>Gamal Abdulsalam</title>
+        <link rel="stylesheet" href="./theme/css/main.css" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Portfolio</a></h1>
+                <h1><a href="./">Gamal Abdulsalam</a></h1>
                 <nav><ul>
-                    <li><a href="/category/review.html">Review</a></li>
+                    <li><a href="./category/blog.html">Blog</a></li>
+                    <li><a href="./category/home.html">Home</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/my-first-review.html">My First Review</a></h1>
+                    <h1 class="entry-title"><a href="./hierarchical-navigable-small-worlds-hnsw.html">Hierarchical Navigable Small Worlds (HNSW)</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2010-12-03T10:20:00+01:00">
-                Published: Fri 03 December 2010
+        <abbr class="published" title="2024-08-19T00:00:00+02:00">
+                Published: Mon 19 August 2024
+        </abbr>
+		<br />
+        <abbr class="modified" title="2024-08-19T00:00:00+02:00">
+                Updated: Mon 19 August 2024
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/gamal-abdulsalam.html">Gamal Abdulsalam</a>
+                By                         <a class="url fn" href="./author/gamal-abdulsalam.html">Gamal Abdulsalam</a>
         </address>
-<p>In <a href="/category/review.html">Review</a>.</p>
+<p>In <a href="./category/blog.html">Blog</a>.</p>
 
-</footer><!-- /.post-info --><p>Following is a review of my favorite mechanical keyboard.</p>                </article>
+</footer><!-- /.post-info --><p>Hierarchical Navigable Small Worlds is a data structure made for indexing vectors. 
+I implemented it in Rust with multithreading capabilities and plan on adding some additional features:</p>
+<ul>
+<li>Filtering capabilities based on attributes attached to vectors</li>
+<li>A vector database engine that works directly on disk, allowing for the fast creation and querying 
+of vector databases that don't fit in RAM.</li>
+</ul>
+<p>You can the code I am working on following <a href="https://github.com/Gumo-A/hnsw_rs">this link</a>.</p>
+<p><img src="./assets/graph.png" width="300"/></p>                </article>
             </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="./welcome-to-my-personal-site.html" rel="bookmark"
+                           title="Permalink to Welcome to my personal site!">Welcome to my personal site!</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-08-19T00:00:00+02:00">
+                Published: Mon 19 August 2024
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="./author/gamal-abdulsalam.html">Gamal Abdulsalam</a>
+        </address>
+<p>In <a href="./category/home.html">Home</a>.</p>
+
+</footer><!-- /.post-info -->                <hr>
+<p><img src="./assets/profile_pic.png" width="200"/></p>
+<p>I'm Gamal, a computer scientist with a passion for AI and data engineering.
+I live in Nice, France, but I was born and raised in Venezuela!</p>
+                <a class="readmore" href="./welcome-to-my-personal-site.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
                         <ul>
-                            <li><a href="https://getpelican.com/">Pelican</a></li>
                             <li><a href="https://www.python.org/">Python.org</a></li>
-                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
                 <div class="social">
                         <h2>social</h2>
                         <ul>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
+                            <li><a href="https://github.com/Gumo-A">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/gamal-abdulsalam/">LinkedIn</a></li>
                         </ul>
                 </div><!-- /.social -->
         </section><!-- /#extras -->
